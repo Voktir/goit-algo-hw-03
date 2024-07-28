@@ -30,10 +30,10 @@ def get_upcoming_birthdays(users):
 
 
 
-# users = [
-#     {"name": "John Doe", "birthday": "1985.04.22"},
-#     {"name": "Jane Smith", "birthday": "1990.04.29"}
-# ]
+users = [
+    {"name": "John Doe", "birthday": "1985.04.30"},
+    {"name": "Jane Smith", "birthday": "1990.04.29"}
+]
 
-# upcoming_birthdays = get_upcoming_birthdays(users)
-# print("Список привітань на цьому тижні:", upcoming_birthdays)
+upcoming_birthdays = get_upcoming_birthdays(users)
+print("Список привітань на цьому тижні:", upcoming_birthdays)
